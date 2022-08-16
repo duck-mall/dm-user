@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 124.222.7.118:8848 #Nacos????????
+        file-extension: yaml #??yaml????
+        username: nacos
+        password: nacos
+        prefix: nacos-provider
+
